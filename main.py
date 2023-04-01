@@ -50,7 +50,6 @@ def test_password():
 
 def main():
     score = test_password()
-    print(score)
     if 8 <= score > 6:
         print("The password is Strong")
     elif score > 6:
